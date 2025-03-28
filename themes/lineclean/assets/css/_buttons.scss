@@ -1,0 +1,33 @@
+/* buttons.scss */
+
+.button {
+    display: inline-block;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    transition: background 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+  }
+  
+  .button-primary {
+    background-color: #3d818f;
+    color: #fff;
+  
+    &:hover {
+      background-color: lighten(#3d818f, 5%);
+    }
+  }
+  
+  .button-secondary {
+    background-color: #333;
+    color: #f1f1f1;
+    margin-left: 1rem;
+  
+    &:hover {
+      background-color: #444;
+    }
+  }
+  

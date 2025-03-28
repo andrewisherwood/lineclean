@@ -1,0 +1,33 @@
+baseURL = 'http://lineclean.co.uk/'
+languageCode = 'en-gb'
+theme = "lineclean"
+# found in head
+title = ""
+
+[params]
+
+authorName = "Copyright LineClean 2025"
+dateFormat = "Jan 2, 2023"
+google_analytics_id = "GA-"
+[menu]
+[[menu.main]]
+
+Name = "Contact"
+URL = "#"
+weight = 1
+[[menu.main]]
+
+Name = "About us"
+URL = "#"
+weight = 2
+[[menu.main]]
+
+Name = "FAQ's"
+URL = "#"
+weight = 3
+[[menu.main]]
+
+Name = "Support"
+URL = "#"
+weight = 4
+[params.social]
